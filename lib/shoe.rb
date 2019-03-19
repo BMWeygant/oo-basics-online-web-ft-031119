@@ -5,7 +5,8 @@ attr_reader :brand
 def initialize(brand)
 @brand = brand
 end
+
 def cobble
-  puts {"#{Shoe} is repaired."}
+  puts "Your shoe is as good as new!"
 end
 end
